@@ -1,59 +1,37 @@
+# 🪙 CrowdFunding DApp
 
-![tw-banner](https://github.com/thirdweb-example/next-starter/assets/57885104/20c8ce3b-4e55-4f10-ae03-2fe4743a5ee8)
+A decentralized crowdfunding platform built on Ethereum where users can create fundraising campaigns, donate using crypto, and track transparency in real-time.
 
-# thirdweb-next-starter
+## 🚀 Features
 
-Starter template to build an onchain react native app with [thirdweb](https://thirdweb.com/) and [next](https://nextjs.org/).
+- 📝 Create and manage fundraising campaigns
+- 💰 Donate using your crypto wallet (MetaMask)
+- 🔒 Smart contract-based transactions for security and trust
+- 📊 Real-time funding progress tracking
+- 🖼️ Upload images and descriptions for campaigns
 
-## Installation
+## 💻 Tech Stack
 
-Install the template using [thirdweb create](https://portal.thirdweb.com/cli/create)
+| Technology     | Purpose                        |
+|----------------|-------------------------------|
+| **Solidity**   | Smart contract logic (Ethereum) |
+| **ThirdWeb**   | Contract deployment + SDK       |
+| **React.js**   | Frontend framework              |
+| **Tailwind CSS** | Styling the UI                |
+| **MetaMask**   | Wallet integration              |
+| **Vite**       | Fast frontend tooling           |
 
-```bash
-  npx thirdweb create app --next
-```
+## 🧠 How It Works
 
-## Environment Variables
+1. **User connects wallet** using MetaMask
+2. **Creates campaign** with image, goal, deadline, and description
+3. **Smart contract stores** campaign data on-chain
+4. **Others can donate** ETH directly via the DApp
+5. **Owner can withdraw** once the goal is met
 
-To run this project, you will need to add the following environment variables to your .env file:
+## 🛠️ Getting Started
 
-`CLIENT_ID`
-
-To learn how to create a client ID, refer to the [client documentation](https://portal.thirdweb.com/typescript/v5/client). 
-
-## Run locally
-
-Install dependencies
-
-```bash
-yarn
-```
-
-Start development server
-
-```bash
-yarn dev
-```
-
-Create a production build
-
-```bash
-yarn build
-```
-
-Preview the production build
-
-```bash
-yarn start
-```
-
-## Resources
-
-- [Documentation](https://portal.thirdweb.com/typescript/v5)
-- [Templates](https://thirdweb.com/templates)
-- [YouTube](https://www.youtube.com/c/thirdweb)
-- [Blog](https://blog.thirdweb.com)
-
-## Need help?
-
-For help or feedback, please [visit our support site](https://thirdweb.com/support)
+### 🔧 Prerequisites
+- Node.js and npm
+- MetaMask wallet
+- Git
